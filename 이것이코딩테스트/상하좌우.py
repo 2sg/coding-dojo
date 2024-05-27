@@ -5,6 +5,7 @@ plans = list(map(int, input().split()))
 x = 1
 y = 1
 
+# 각각 L, R, U, D에 따른 이동 방향을 x축, y축으로 나타내기
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
 move_types = ['L', 'R', 'U', 'D']
